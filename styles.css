@@ -1,0 +1,128 @@
+* {
+  font-family: "Verdana", "Lucid Console", monospace;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B8CCBE;
+  position: relative;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover:not(.active) {
+  background-color: #F7F7B9;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.shop {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(100%, -50%);
+}
+
+.best {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+}
+
+.login {
+  float: right;
+}
+
+.img-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  font-family: "Brush Script MT", cursive ;
+  color: #fff;
+  padding: 10px 20px; 
+  font-size: 80px; 
+  text-align: center; 
+}
+
+.free-container {
+  text-align: center;
+  border-top: 5px solid green;
+  border-bottom: 5px solid green;
+  color: gray;
+  line-height: 30%;
+}
+
+.cat-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.cat {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+  padding: 5px;
+}
+
+
+.list-container {
+  text-align:center;
+    width:100%;
+}
+
+
+.item {
+  margin:1px;
+  width:20%;
+  text-align:center;
+  display:inline-block; 
+  line-height: 30%;
+}
+
+
+.list {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+}
+
+p {
+ font-size: 12px;
+}
+
+.price {
+  color: grey;
+  font-size: 10px;
+}
